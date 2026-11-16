@@ -1,7 +1,5 @@
-   android:usesCleartextTraffic="false">
-
-        <activity
-            android:name=".MainActivity"
+  <activity
+            android:name="app.zingmusic.browser.MainActivity"
             android:exported="true">
 
             <intent-filter>
@@ -10,5 +8,6 @@
             </intent-filter>
 
         </activity>
+
     </application>
 </manifest>
