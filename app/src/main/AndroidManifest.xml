@@ -1,4 +1,13 @@
-  <activity
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:label="Zing Music"
+        android:theme="@android:style/Theme.Material.Light.NoActionBar">
+
+        <activity
             android:name="app.zingmusic.browser.MainActivity"
             android:exported="true">
 
